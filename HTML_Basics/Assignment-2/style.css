@@ -1,0 +1,53 @@
+h1{
+    text-align: center;
+    margin: auto;
+    background-color: #47b7d3;
+    font:bold;
+    border: 2px solid red;
+    border-radius: 5px;
+    height: 60px;
+    width: 300px;
+    
+}
+
+dd::before{
+    content:"📞";
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  dl > div {
+    background: #FFF;
+    padding: 24px 0 0 0;
+  }
+  
+  dt {
+    background: #47b7d3;
+    border: 2px solid red;
+    
+    font: bold 40px/50px  Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -2px;
+    border-radius: 5px;
+  }
+  
+  dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color:#47b7d3;
+    color:black;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+  
